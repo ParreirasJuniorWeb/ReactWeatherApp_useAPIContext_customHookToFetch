@@ -1,0 +1,44 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 6rem;
+    box-shadow: 0px 20px 25px -10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+    padding: 0 9rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 2;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+}
+
+header nav {
+    display: flex;
+    gap: 8rem;
+    padding: 0 1rem;
+}
+
+header nav a {
+    color: rgb(118, 169, 240);
+    font-weight: 400;
+    text-align: center;
+    font-size: .9rem;
+    letter-spacing: 1.4px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+header nav a:hover, header nav a.active {
+    color: rgb(48, 128, 240);
+    transform: translateX(-5px) scale(1.05);
+    font-style: italic;
+    text-decoration: underline;
+}

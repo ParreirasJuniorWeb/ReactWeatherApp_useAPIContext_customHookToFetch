@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    overflow-x: hidden;                                      
+    transition: all .5s ease-in-out;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(202, 223, 245, 0.986) 0%, rgb(48, 128, 240) 100%);
+}
+
+button {
+    font-weight: bold;
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: .8rem 1.5rem;
+    border-radius: 1rem;
+    background: rgb(48, 128, 240);
+    transition: .5s ease-in-out;
+    opacity: .8;
+    color: #fff;
+}
+
+button:hover {
+    opacity: 1;
+    transform: translateY(-5px)scale(1.05);
+}
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+}

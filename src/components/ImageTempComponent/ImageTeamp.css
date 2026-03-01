@@ -1,0 +1,29 @@
+.intro-city-temp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7rem;
+    width: 100%;
+    box-shadow: 0px 20px 25px -10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    padding: 2.5rem;
+}
+
+.intro-city-temp h2.subtitle {
+    color: #000;
+    font-size: 4.5rem;
+    font-weight: bold;
+    letter-spacing: 3.5px;
+}
+
+.image-container {
+    width: 50%;
+    border-radius: 2rem;
+    background-color: rgb(48, 128, 240);
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 0px 20px 25px -10px rgba(0, 0, 0, 0.2);
+    border: 6px solid rgba(255, 255, 255, 1);
+    border-radius: 30px;
+}

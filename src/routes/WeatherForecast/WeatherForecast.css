@@ -1,0 +1,17 @@
+.WeatherSearch-container {
+    margin: 6rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherForecastForCity {
+    width: 100%;
+    padding: 4.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+}
